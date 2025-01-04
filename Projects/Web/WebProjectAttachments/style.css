@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    0deg,
+    rgba(247, 247, 247, 1) 23.8%,
+    rgba(252, 221, 221, 1) 92%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.music-container {
+  /* to do */
+}
+
+.img-container {
+  /* to do */
+}
+
+.img-container::after {
+  /* to do */
+}
+
+.img-container img {
+ /* to do */
+}
+
+.music-container.play .img-container img {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  /* to do */
+}
+
+.navigation {
+  /* to do */
+}
+
+.action-btn {
+  /* to do */
+}
+
+.action-btn.action-btn-big {
+  /* to do */
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  /* to do */
+}
+
+.music-container.play .music-info {
+  /* to do */
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+ /* to do */
+}
+
+.progress {
+ /* to do */
+}
